@@ -12,7 +12,7 @@ class Student
 
   def self.create_table
    sql =  <<-SQL
-     CREATE TABLE songs (
+     CREATE TABLE students (
        id INTEGER PRIMARY KEY,
        name TEXT,
        grade TEXT
