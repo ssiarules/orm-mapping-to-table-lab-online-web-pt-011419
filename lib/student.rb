@@ -40,13 +40,9 @@ class Student
  end 
  
  def self.create (name:, grade:)
-#Create the songs table.
-#Create two new song instances.
-Use the song.save method to persist them to the database.
-
-   student = Student.new(name, grade)
-   student.save
-   studuent 
+    student = Student.new(name, grade)
+    student.save
+    studuent 
  end
 
    
